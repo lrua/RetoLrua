@@ -1,0 +1,49 @@
+DataTable.ImportSheet "C:\Users\lrua\Documents\Unified Functional Testing\Simulador\Simulador_DataDriven.xlsx",1,"Global"
+
+SystemUtil.Run("https://www.grupobancolombia.com/wps/portal/personas/aprender-es-facil/como-manejar-dinero/endeudamiento-responsable/que-es-credito/simulador-credito-consumo")
+
+With Browser("Simulador Crédito de Consumo").Page("Simulador Crédito de Consumo") 
+	.WebList("comboTipoSimulacion").Select DataTable.Value("QueDeseaSimular","Global")
+	.WebEdit("dateFechaNacimiento").Set DataTable.Value("IngresaTuFechaDeNacimiento","Global")
+	.WebList("comboTipoTasa").Select DataTable.Value("ConQueTipoDeTasaQuieresTuPrestamo","Global")
+	.WebList("comboTipoProducto").Select DataTable.Value("CualEsElproductoDeCreditoQueDeseasAdquirir","Global")
+	.WebElement("Simula tu CréditoCalcula").Click
+	.WebCheckBox("checkSeguroDesempleo").Set DataTable.Value("QuieresSeguroDeDesempleo","Global")
+	.WebEdit("textPlazoInversion").Set DataTable.Value("CualEsElPlazoQueNecesitasParaTuPrestamoMeses","Global")
+	.WebEdit("textValorPrestamo").Set DataTable.Value("CuantoEsElValorQueDeseasPrestar","Global")
+	.WebButton("Simular").Click
+	
+	Dim CuotaMensual
+	Set CuotaMensual = .RunScript ("document.getElementsByClassName('monto valor ng-binding')")
+	 DataTable.Value("CuotaMensualMasSeguros", "Global") = CuotaMensual(5).innerText
+
+End With
+
+SystemUtil.Run("https://www.grupobancolombia.com/wps/portal/personas/aprender-es-facil/como-manejar-dinero/endeudamiento-responsable/credito-vs-leasing/simulador-solucion-inmobiliaria")
+
+With Browser("Simulador Inmobiliario:").Page("Simulador Inmobiliario:")
+	.WebList("combotipoFinanciacion").Select DataTable.Value("SeleccionaElTipoDeFinanciacion","Global")
+	.WebElement("Selecciona el destino").Click
+	.WebList("comboDestinoCredito").Select DataTable.Value("SeleccionaElDestinoDelCredito","Global")
+	.WebList("comboOpcionSimular").Select DataTable.Value("SeleccionaLaOpcionASimular","Global")
+	.WebList("comboPlanAmortizacion").Select DataTable.Value("SeleccionaElPlanDeAmortizacion","Global")
+	.WebElement("Selecciona el destino_2").Click
+	.WebEdit("textPlazoAnios").Set DataTable.Value("IngresaElPlazoEnAnos","Global")
+	.WebEdit("dateFechaNacimiento").Set DataTable.Value("IngresaTuFechaDeNacimiento","Global")
+	.WebList("comboDeptoColomnbia").Select DataTable.Value("SeleccionaElDepartamentoDeColombiaDondeSeEncuentraElBien","Global")
+	.WebEdit("textValorBien").Set DataTable.Value("IngresaElValorDelBienInmueble","Global")
+	.WebEdit("textValorPrestamo").Set DataTable.Value("IngresaElValorDelPrestamo","Global")
+	.WebButton("Simular").Click
+	
+	Dim CuotaHipotecario
+	Set CuotaHipotecario = .RunScript ("document.getElementsByClassName('monto valor ng-binding')")
+	
+'	MsgBox CuotaHipotecario(19).innerText
+'	MsgBox CuotaHipotecario(25).innerText
+'	MsgBox CuotaHipotecario(26).innerText
+	
+	 DataTable.Value("CuotaMensualEnPesos", "Global") = CuotaHipotecario(19).innerText
+	 DataTable.Value("SeguroDeVida", "Global") = CuotaHipotecario(25).innerText
+	 DataTable.Value("SeguroDeIncendioYTerremoto", "Global") = CuotaHipotecario(26).innerText
+	
+End With
