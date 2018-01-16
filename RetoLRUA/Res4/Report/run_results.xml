@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "https://www.grupobancolombia.com/wps/portal/personas/aprender-es-facil/como-manejar-dinero/endeudamiento-responsable/que-es-credito/simulador-credito-consumo",1</Name>
+    <StartTime>2018-01-07 16:50:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>fedef28deb564de9a7f8db87eed61ba6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>comboTipoSimulacion</Name>
+    <ErrorText>Cannot identify the object "comboTipoSimulacion" (of class WebList).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot&amp;nbsp;identify&amp;nbsp;the&amp;nbsp;object&amp;nbsp;"comboTipoSimulacion"&amp;nbsp;(of&amp;nbsp;class&amp;nbsp;WebList).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;this&amp;nbsp;object's&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = WebList&lt;br&gt;Html Tag = SELECT&lt;br&gt;_xpath = //DIV[@id="sim-detail"]/FORM[1]/DIV[2]/SELECT&lt;br&gt;|Visible Items = 0&lt;br&gt;Visible = -1&lt;br&gt;Name = comboTipoSimulacion&lt;br&gt;Items Count = 3&lt;br&gt;Html Id = &lt;br&gt;default value = &lt;br&gt;DHTML Class = form-control ng-dirty ng-valid ng-valid-required&lt;br&gt;acc_name = &lt;br&gt;</Description>
+    <StartTime>2018-01-07 16:51:12</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Browser("No se puede mostrar esta").Page("Simulador Crédito de Consumo").WebList("comboTipoSimulacion").Select "Simula tu Cuota"]]></Scripts>
+          <LineNo><![CDATA[3]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[No se puede mostrar esta]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[comboTipoSimulacion]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;identify&nbsp;the&nbsp;object&nbsp;"comboTipoSimulacion"&nbsp;(of&nbsp;class&nbsp;WebList).<br/>Verify&nbsp;that&nbsp;this&nbsp;object's&nbsp;properties&nbsp;match&nbsp;an&nbsp;object&nbsp;currently&nbsp;displayed&nbsp;in&nbsp;your&nbsp;application.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[comboTipoSimulacion]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5168afe041eb4f93a5bde48efdb11d7c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\32f91a4f-6902-496d-8697-bba749e15e9c.jpeg" highlight="0,0,837,537" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2018-01-07 16:51:30</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>7dbd434d5dc146dd84fb85b1bacf9ea9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>No se puede mostrar esta</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2018-01-07 16:51:12</StartTime>
+    <Duration>18</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[No se puede mostrar esta]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>ffb9dbf38dcc4225ac8014bcf42e24ff</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2018-01-07 16:50:51</StartTime>
+    <Duration>39</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>710e0f6b89a44d0ca05a3365eb50b9ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-01-07 16:50:51</StartTime>
+    <Duration>39</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>1b510623312647d1a7ebad6e3cea9536</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2018-01-07 16:51:30</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>ed19b5ccffec48e2876cdfbf8abfc1aa</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>RetoLRUA</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.0</ToolVersion>
+    <Description />
+    <StartTime>2018-01-07 16:50:50</StartTime>
+    <Duration>40</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>9b747efb13ed4decb7b630a181666947</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-05:00:00</Timezone>
+      <Locale>español (Colombia)</Locale>
+      <User>BANCOLOMBIA\lrua</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>7880</TotalMemory>
+      <HostName>PL0L0744726</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res4</ResultName>
+    <RunStartTime>2018-01-07 16:50:50</RunStartTime>
+    <Timezone>-05:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.0</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

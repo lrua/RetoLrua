@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "https://www.grupobancolombia.com/wps/portal/personas/aprender-es-facil/como-manejar-dinero/endeudamiento-responsable/que-es-credito/simulador-credito-consumo",1</Name>
+    <StartTime>2018-01-07 16:41:20</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e883e77fdfd74fcdaa222fcac98ba4c2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2018-01-07 16:41:20</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>399a02245038402782b786ec4c0311e7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-01-07 16:41:19</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>a735789c04314225a44b79cfd0741796</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>RetoLRUA</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.0</ToolVersion>
+    <Description />
+    <StartTime>2018-01-07 16:41:18</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>b591a3d0a23a449f932104fb65325396</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-05:00:00</Timezone>
+      <Locale>español (Colombia)</Locale>
+      <User>BANCOLOMBIA\lrua</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>7880</TotalMemory>
+      <HostName>PL0L0744726</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res3</ResultName>
+    <RunStartTime>2018-01-07 16:41:18</RunStartTime>
+    <Timezone>-05:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.0</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

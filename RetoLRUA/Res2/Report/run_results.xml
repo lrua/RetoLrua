@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<Data>
+    <Name>Invoke Browser</Name>
+    <Description>The URL address specified for the record and run settings was invalid. The browser opened to the default home page when the test session began.</Description>
+    <StartTime>2018-01-07 16:34:19</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IconKey>87ec849004ba424a9363715a935ee248</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "https://www.grupobancolombia.com/wps/portal/personas/aprender-es-facil/como-manejar-dinero/endeudamiento-responsable/que-es-credito/simulador-credito-consumo",1</Name>
+    <StartTime>2018-01-07 16:34:41</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>600b35eda63949bb92057b5d79a80a3e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2018-01-07 16:34:41</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>95f35a83c60b4ace8084b165f93d394f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-01-07 16:34:19</StartTime>
+    <Duration>23</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <IconKey>60a6aed4c0f24ca89982e5766d52cc0a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>Google Chrome</Name>
+        <Path>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Path>
+        <Version>11</Version>
+        <Technology>web</Technology>
+        <Reserved />
+        <AdditionalInfos>
+          <Info />
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>RetoLRUA</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.0</ToolVersion>
+    <Description />
+    <StartTime>2018-01-07 16:34:17</StartTime>
+    <Duration>25</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>eb50a7ea75434a4e8aecd60b9a4d212e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-05:00:00</Timezone>
+      <Locale>español (Colombia)</Locale>
+      <User>BANCOLOMBIA\lrua</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>7880</TotalMemory>
+      <HostName>PL0L0744726</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res2</ResultName>
+    <RunStartTime>2018-01-07 16:34:17</RunStartTime>
+    <Timezone>-05:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.0</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

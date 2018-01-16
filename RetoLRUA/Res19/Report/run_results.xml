@@ -1,0 +1,572 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "https://www.grupobancolombia.com/wps/portal/personas/aprender-es-facil/como-manejar-dinero/endeudamiento-responsable/que-es-credito/simulador-credito-consumo",1</Name>
+    <StartTime>2018-01-07 18:20:59</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>bde6fd0dac4043b9b57185f38b358818</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>comboTipoSimulacion.Select</Name>
+    <Description>"Simula tu Cuota"</Description>
+    <StartTime>2018-01-07 18:21:19</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[comboTipoSimulacion]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Simula tu Cuota"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[comboTipoSimulacion]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>ac97a8528753465faa1dc1cee285c34f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>dateFechaNacimiento.Set</Name>
+    <Description>"1990-01-01"</Description>
+    <StartTime>2018-01-07 18:21:19</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[dateFechaNacimiento]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["1990-01-01"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[dateFechaNacimiento]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>ba332c31efcd4b65982502a62db0f350</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>comboTipoTasa.Select</Name>
+    <Description>"Tasa Fija"</Description>
+    <StartTime>2018-01-07 18:21:20</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[comboTipoTasa]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Tasa Fija"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[comboTipoTasa]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>ac97a8528753465faa1dc1cee285c34f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>comboTipoProducto.Select</Name>
+    <Description>"Crédito de Libre Inversión"</Description>
+    <StartTime>2018-01-07 18:21:20</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[comboTipoProducto]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Crédito de Libre Inversión"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[comboTipoProducto]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>ac97a8528753465faa1dc1cee285c34f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Simula tu CréditoCalcula.Click</Name>
+    <Description />
+    <StartTime>2018-01-07 18:21:20</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Simula tu CréditoCalcula]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Simula tu CréditoCalcula el valor de tu cuota o el monto que puedes solicitar de acuerdo con tus necesidades de crédito y capacidad de pago.¿Qué deseas simular? Simula tu CuotaSimula tu MontoEste campo es obligatorio.Este simulador te permite identificar el valor de la cuota que debes pagar cada mes, según el monto que deseas prestar y el plazo que solicites.Este simulador te permite conocer cuál es el monto que puedes solicitar, según tus necesidades en cuanto a la cantidad de dinero que puedes asignar en el pago de la cuota periódica y el plazo de financiación que requieres.Ingresa tu fecha de nacimiento Este campo es obligatorio.Por favor ingresa una fecha válida.Por favor ingresa una fecha válida.No es permitido ingresar fechas de fines de semana. Fecha fuera del rango permitido undefinedFecha fuera del rango permitido undefined Este campo es obligatorio.El campo no cumple con el valor mínimo 18 años. El campo no cumple con el valor máximo 84 años. + 364 dias. Campo Inválido.¿Con qué tipo de tasa quieres tu préstamo? Tasa FijaTasa VariableEste campo es obligatorio.¿Cuál es el producto de crédito que deseas adquirir? Crédito de Libre InversiónCrédito con Pignoración de Pensiones VoluntariasLibranza EmpleadosLibranza ProtecciónEste campo es obligatorio.Ingresos mensuales mínimos necesarios de ($) ¿Quieres seguro de desempleo? ¿Cuál es el plazo que necesitas para tu préstamo? (meses) ¿Cuál es el plazo que necesitas para tu préstamo? (meses) Este campo es obligatorio.Por favor usa solo caracteres numéricos enteros en este campo. El campo no cumple con el valor mínimo 36El campo no cumple con el valor máximo 120Campo Inválido.¿Cuánto es el valor que deseas prestar? ($) ¿Cuánto deseas pagar cada mes? ($) Este campo es obligatorio.Por favor usa solo caracteres numéricos enteros en este campo. El campo no cumple con el valor mínimo $1,000,000.00El campo no cumple con el valor máximo $5,000,000,000.00Campo Inválido.Simular Resultado de la SimulaciónLos valores resultantes de esta simulación, son informativos, aproximados y podrán variar de acuerdo a las políticas de estudio y aprobación del crédito por parte de Bancolombia.Tasa efectiva anual utilizada en la simulación%Tasa mes vencida utilizada en la simulación%Cuota mensualMonto a prestar$0.00Seguro de vida asociado a la deuda por cuota$0.00Seguro de desempleo por cuota$0.00Cuota mensual más seguro(s)Plazo mesesPara Créditos en Tasa Variable, el abono a capital es gradual con cuotas mensuales fijas durante toda la vigencia del crédito.Plan de Pagos A continuación te presentamos el detalle de tu simulación a través de las siguientes columnas: Número de cuota, Abono a intereses, Abono a capital, Cuota mensual sin seguros, Valor del seguro de vida asociado a la deuda, Cuota mensual más seguro y Saldo. A continuación te presentamos el detalle de tu simulación a través de las siguientes columnas: Número de cuota, Abono a intereses, Abono a capital, Cuota mensual sin seguros, Valor del seguro de vida asociado a la deuda, Valor del seguro de desempleo, Cuota mensual más seguro y Saldo.Cuota #Abono a interesesAbono a capitalCuota mensual sin segurosValor del seguro de vida asociado a la DeudaValor del seguro de desempleoCuota mensual mas segurosSaldo Año Primero Anterior 1 Siguiente Último  Solicítalo aquí]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[container-fluid height-forty]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5c0b6ffdf02647a7bb3f75f9bb600c99</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>checkSeguroDesempleo.Set</Name>
+    <Description>"ON"</Description>
+    <StartTime>2018-01-07 18:21:20</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>WebCheckBox</Type>
+            <Name><![CDATA[checkSeguroDesempleo]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["ON"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[checkbox]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[checkSeguroDesempleo]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>50d36de8b3394afa9a885ccec36d1814</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>textPlazoInversion.Set</Name>
+    <Description>"40"</Description>
+    <StartTime>2018-01-07 18:21:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[textPlazoInversion]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["40"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[textPlazoInversion]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>ba332c31efcd4b65982502a62db0f350</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>textValorPrestamo.Set</Name>
+    <Description>"38000000"</Description>
+    <StartTime>2018-01-07 18:21:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[textValorPrestamo]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["38000000"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[textValorPrestamo]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>ba332c31efcd4b65982502a62db0f350</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Simular.Click</Name>
+    <Description />
+    <StartTime>2018-01-07 18:21:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Simular]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[submit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Simular]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>674686b63a8b434d960087e42d3fc11c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Simulador Crédito de Consumo.RunScript</Name>
+    <Description>"document.getElementsByClassName('monto valor ng-binding')"</Description>
+    <StartTime>2018-01-07 18:21:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+        </Path>
+        <Operation>RunScript</Operation>
+        <OperationData><![CDATA["document.getElementsByClassName('monto valor ng-binding')"]]></OperationData>
+      </TestObject>
+      <IconKey>5237a4d39b9940d4901988d4973f5301</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2018-01-07 18:28:55</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>197b825da0b84f29b4c29c83c48bd4c5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Simulador Crédito de Consumo</Name>
+    <Description>Page</Description>
+    <StartTime>2018-01-07 18:21:19</StartTime>
+    <Duration>456</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>5237a4d39b9940d4901988d4973f5301</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Simulador Crédito de Consumo</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2018-01-07 18:21:19</StartTime>
+    <Duration>456</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Simulador Crédito de Consumo]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>260d6ef1bc924ef2bb6fc35efd41c00b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2018-01-07 18:20:58</StartTime>
+    <Duration>477</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>8f157942b4474cc29c9fe4dd009dea6d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-01-07 18:20:58</StartTime>
+    <Duration>477</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>318c4fc0dd604642a44e4f77ebad50f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2018-01-07 18:28:55</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>87702739389e48df952714427b94700e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>RetoLRUA</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.0</ToolVersion>
+    <Description />
+    <StartTime>2018-01-07 18:20:57</StartTime>
+    <Duration>478</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>bd48768b8247445d8770ff23381a6626</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-05:00:00</Timezone>
+      <Locale>español (Colombia)</Locale>
+      <User>BANCOLOMBIA\lrua</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>7880</TotalMemory>
+      <HostName>PL0L0744726</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res19</ResultName>
+    <RunStartTime>2018-01-07 18:20:57</RunStartTime>
+    <Timezone>-05:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.0</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>
